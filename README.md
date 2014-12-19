@@ -11,4 +11,4 @@ A resourcebar with slant, shading and progressive fill color.
 HeartBar
 --------
 A heartbar Zelda-style.
-![heartbar.png](https://github.com/victor-rene/kivy-gamelib/raw/master/resourcebar/heartbar.png "HeartBar")
+![heartbar.png](https://github.com/victor-rene/kivy-gamelib/raw/master/heartbar/heartbar.png "HeartBar")
