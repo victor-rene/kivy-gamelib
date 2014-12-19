@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="heart.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.8760574"
+     inkscape:cx="57.481158"
+     inkscape:cy="51.994466"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36218)">
+    <g
+       transform="translate(-109.73393,-94.654817)"
+       id="g3811-1">
+      <g
+         transform="matrix(0.939933,0,0,0.939933,6.2825274,55.300185)"
+         id="g3031-7">
+        <path
+           sodipodi:type="arc"
+           style="fill:#550000;fill-opacity:1;stroke:none"
+           id="path3025-4"
+           sodipodi:cx="29.90373"
+           sodipodi:cy="37.725632"
+           sodipodi:rx="16.907341"
+           sodipodi:ry="16.907341"
+           d="m 46.811071,37.725632 c 0,9.337666 -7.569674,16.907341 -16.907341,16.907341 -9.337666,0 -16.907341,-7.569675 -16.907341,-16.907341 0,-9.337667 7.569675,-16.907341 16.907341,-16.907341 9.337667,0 16.907341,7.569674 16.907341,16.907341 z"
+           transform="matrix(1.2533853,0,0,1.2533853,-5.0534424,948.90938)" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#550000;fill-opacity:1;stroke:none"
+           id="path3027-0"
+           sodipodi:cx="66.967506"
+           sodipodi:cy="43.862816"
+           sodipodi:rx="17.509026"
+           sodipodi:ry="17.509026"
+           d="m 84.476532,43.862816 c 0,9.669968 -7.839058,17.509025 -17.509026,17.509025 -9.669967,0 -17.509025,-7.839057 -17.509025,-17.509025 0,-9.669968 7.839058,-17.509026 17.509025,-17.509026 9.669968,0 17.509026,7.839058 17.509026,17.509026 z"
+           transform="matrix(1.2103136,0,0,1.2103136,-20.456607,943.10637)" />
+        <rect
+           style="fill:#550000;fill-opacity:1;stroke:none"
+           id="rect3029-9"
+           width="40.931038"
+           height="42.026142"
+           x="727.46613"
+           y="660.59418"
+           transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="C:\dev\project\kivy-gamelib\heartbar\img\heart-4.png"
+       inkscape:connector-curvature="0"
+       style="fill:#aa0000;fill-opacity:1;stroke:#280b0b;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 116.90578,972.92846 c -11.00068,0 -19.906243,8.9055 -19.906243,19.9062 0,5.8361 2.531885,11.07574 6.531243,14.71884 l 26.625,26.625 26.62501,-26.625 c 3.99936,-3.6431 6.53125,-8.88274 6.53125,-14.71884 0,-11.0007 -8.90557,-19.9062 -19.90626,-19.9062 -5.08477,0 -9.73021,1.9268 -13.25,5.0625 -3.51978,-3.1357 -8.16522,-5.0625 -13.25,-5.0625 z"
+       id="path3860" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#501616;fill-opacity:1;stroke:#280b0b;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 36.75,971.73719 c -11.000688,0 -19.90625,8.9055 -19.90625,19.9062 0,5.8361 2.531885,11.07571 6.53125,14.71881 l 26.625,26.625 26.625,-26.625 c 3.999365,-3.6431 6.53125,-8.88262 6.53125,-14.71882 0,-11.0007 -8.905562,-19.9062 -19.90625,-19.9062 -5.084775,0 -9.730217,1.9269 -13.25,5.0625 -3.519783,-3.1356 -8.165224,-5.0625 -13.25,-5.0625 z"
+       id="path3872"
+       inkscape:export-filename="C:\dev\project\kivy-gamelib\heartbar\img\heart-0.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+</svg>
