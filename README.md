@@ -12,3 +12,8 @@ HeartBar
 --------
 A heartbar Zelda-style. <br/>
 ![heartbar.png](https://github.com/victor-rene/kivy-gamelib/raw/master/heartbar/heartbar.png "HeartBar")
+
+Map2D
+-----
+A 2D map. Metroid-style. (Work in progress) <br/>
+![map2d.png](https://github.com/victor-rene/kivy-gamelib/raw/master/map2d/map2d.png "Map2D")
