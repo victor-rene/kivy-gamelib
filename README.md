@@ -15,5 +15,5 @@ A heartbar Zelda-style. <br/>
 
 Map2D
 -----
-A 2D map. Metroid-style. (Work in progress) <br/>
+A 2D map. Styled from Metroid Zero Mission. (Work in progress) <br/>
 ![map2d.png](https://github.com/victor-rene/kivy-gamelib/raw/master/map2d/map2d.png "Map2D")
