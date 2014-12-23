@@ -28,7 +28,6 @@ class Font(object):
     files = os.listdir(dirname)
     for file in files:
       name = file[-5:-4]
-      print name
       curr_dir = os.path.dirname(os.path.realpath(__file__))
       self.glyphs[name] = Glyph(filename=os.path.join(curr_dir, dirname, file))
       w = self.glyphs[name].size[0]

@@ -48,7 +48,8 @@ class DotMatrix(Widget):
       bg = self.background
       Color(bg[0], bg[1], bg[2], bg[3])
       Rectangle(pos=self.pos, size=self.size)
-      lines = self.text.split('\n')
+      txt = self.text.replace(' ', '~')
+      lines = txt.split('\n')
       x, y = 0, 0
       for line in reversed(lines):
         for c in line:
