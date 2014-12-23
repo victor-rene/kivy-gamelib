@@ -2,13 +2,13 @@
 from kivy.base import runTouchApp
 from kivy.uix.relativelayout import RelativeLayout
 
-from map import Map2D
+from adventuremap import AdventureMap
 from room import Room
 
 
 if __name__ == '__main__':
   layout = RelativeLayout()
-  m = Map2D(size_hint=(1, 1), pos_hint={'center_x': .5, 'center_y': .5})
+  m = AdventureMap(size_hint=(1, 1), pos_hint={'center_x': .5, 'center_y': .5})
   m.rooms[(0, 0)] = Room()
   m.rooms[(1, 1)] = Room(state='explored', walls=[None, 'full', None, 'full'])
   m.rooms[(1, 0)] = Room()

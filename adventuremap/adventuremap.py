@@ -2,13 +2,13 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.properties import ListProperty, StringProperty
 
 
-class Map2D(RelativeLayout):
+class AdventureMap(RelativeLayout):
 
   player_icon = StringProperty()
   player_pos = ListProperty()
 
   def __init__(self, **kw):
-    super(Map2D, self).__init__(**kw)
+    super(AdventureMap, self).__init__(**kw)
     self.map_size = kw['map_size'] if 'map_size' in kw else (3, 3)
     self.room_size = (1./self.map_size[0], 1./self.map_size[1])
     self.rooms = dict()
