@@ -15,7 +15,7 @@ X X
   X  
   x  
   X  
-XXXXX
+ XXX 
 ''',
 '2':'''
  XXX 
@@ -54,9 +54,9 @@ X   X
  XXX 
 ''',
 '6':'''
-   XX
-  X 
- X   
+  XX
+ X 
+X   
 XXXX 
 X   X
 X   X
@@ -84,7 +84,7 @@ X   X
  XXX
 X   X
 X   X
- XXXX 
+ XXXX
     X
    X 
  XX  
