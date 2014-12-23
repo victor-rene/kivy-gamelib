@@ -1,0 +1,184 @@
+{
+'A':'''
+ X
+X X
+XXX
+X X
+X X
+''',
+'B':'''
+XX
+X X
+XX
+X X
+XX
+''',
+'C':'''
+ X
+X X
+X
+X X
+ X
+''',
+'D':'''
+XX
+X X
+X X
+X X
+XX
+''',
+'E':'''
+XXX
+X
+XX
+X
+XXX
+''',
+'F':'''
+XXX
+X
+XX
+X
+X
+''',
+'G':'''
+ X
+X X
+X
+X X
+ XX
+''',
+'H':'''
+X X
+X X
+XXX
+X X
+X X
+''',
+'I':'''
+XXX
+ X
+ X
+ X
+XXX
+''',
+'J':'''
+XXX
+  X
+  X
+  X
+XX
+''',
+'K':'''
+X  X
+X X
+XX
+X X
+X  X
+''',
+'L':'''
+X
+X
+X
+X
+XXX
+''',
+'M':'''
+X X
+XXX
+X X
+X X
+X X
+''',
+'N':'''
+X X
+X X
+XXX
+X X
+X X
+''',
+'O':'''
+ X
+X X
+X X
+X X
+ X
+''',
+'P':'''
+XX
+X X
+XX
+X
+X
+''',
+'Q':'''
+ X
+X X
+X X
+X X
+ XX
+''',
+'R':'''
+XX
+X X
+XXX
+X X
+X X
+''',
+'S':'''
+ X
+X
+ X
+  X
+ X
+''',
+'T':'''
+XXX
+ X
+ X
+ X
+ X
+''',
+'U':'''
+X X
+X X
+X X
+X X
+ XX
+''',
+'V':'''
+X X
+X X
+X X
+X X
+ X
+''',
+'W':'''
+X X
+X X
+X X
+XXX
+X X
+''',
+'X':'''
+X X
+X X
+ X
+X X
+X X
+''',
+'Y':'''
+X X
+X X
+ X
+ X
+ X
+''',
+'Z':'''
+XXX
+  X
+ X
+X
+XXX
+''',
+}

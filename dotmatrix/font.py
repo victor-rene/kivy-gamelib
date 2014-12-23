@@ -27,9 +27,13 @@ class Font(object):
   def read(self, dirname):
     files = os.listdir(dirname)
     for file in files:
-      name = file[-5:-4]
       curr_dir = os.path.dirname(os.path.realpath(__file__))
-      self.glyphs[name] = Glyph(filename=os.path.join(curr_dir, dirname, file))
-      w = self.glyphs[name].size[0]
-      h = self.glyphs[name].size[1]
-      self.size = max(self.size[0], w), max(self.size[1], h)
+      filename = os.path.join(curr_dir, dirname, file)
+      with open(filename) as f:
+        text = f.read()
+        d = eval(text)
+        for k, v in d.iteritems():
+          self.glyphs[k] = Glyph(data=v.split('\n')[1:-1])
+          w = self.glyphs[k].size[0]
+          h = self.glyphs[k].size[1]
+          self.size = max(self.size[0], w), max(self.size[1], h)

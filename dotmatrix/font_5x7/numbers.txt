@@ -1,0 +1,92 @@
+{
+'0':'''
+ XXX
+X   X
+X   X
+X X X
+X   X
+X   X
+ XXX 
+''',
+'1':'''
+  X  
+ XX  
+X X  
+  X  
+  x  
+  X  
+XXXXX
+''',
+'2':'''
+ XXX 
+X   X
+X   X
+   X 
+  X  
+ X   
+XXXXX
+''',
+'3':'''
+XXXXX
+   X 
+  X  
+   X 
+    X
+X   X
+ XXX 
+''',
+'4':'''
+   X 
+  XX 
+ X X 
+XXXXX
+   X 
+   X 
+  XXX
+''',
+'5':'''
+XXXXX
+X    
+XXXX 
+    X
+    X
+X   X
+ XXX 
+''',
+'6':'''
+   XX
+  X 
+ X   
+XXXX 
+X   X
+X   X
+ XXX 
+''',
+'7':'''
+XXXXX
+    X
+   X 
+  X  
+ X   
+ X   
+ X   
+''',
+'8':'''
+ XXX 
+X   X
+X   X
+ XXX 
+X   X
+X   X
+ XXX 
+''',
+'9':'''
+ XXX
+X   X
+X   X
+ XXXX 
+    X
+   X 
+ XX  
+''',
+}
