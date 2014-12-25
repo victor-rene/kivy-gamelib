@@ -45,5 +45,5 @@ A segment display. (Work in progress) <br/>
 
 DotMatrix
 ---------
-A dot matrix. Can rotate, accept new glyphs, colors are customizables. Dots are squares or circles.<br/>
+A dot matrix. Can rotate, accept new glyphs, colors are customizable. Dots are squares or circles.<br/>
 ![dotmatrix.png](https://github.com/victor-rene/kivy-gamelib/raw/master/dotmatrix/dotmatrix.png "DotMatrix")
