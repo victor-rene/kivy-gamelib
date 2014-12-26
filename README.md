@@ -18,6 +18,16 @@ AdventureMap
 A 2D map. Styled from Metroid Zero Mission. (Work in progress) <br/>
 ![adventuremap.png](https://github.com/victor-rene/kivy-gamelib/raw/master/adventuremap/adventuremap.png "AdventureMap")
 
+DotMatrix
+---------
+A dot matrix. Can rotate, accept new glyphs, colors are customizable. Dots are squares or circles.<br/>
+![dotmatrix.png](https://github.com/victor-rene/kivy-gamelib/raw/master/dotmatrix/dotmatrix.png "DotMatrix")
+
+GamePad
+-------
+A game pad. Styled from the Super Nintendo Entertainment System's controller.<br/>
+![gamepad.png](https://github.com/victor-rene/kivy-gamelib/raw/master/gamepad/gamepad.png "GamePad")
+
 SquareGrid
 ----------
 A square grid. Styled from Advance Wars / Fire Emblem. (Work in progress) <br/>
@@ -43,7 +53,3 @@ SegmentDisplay
 A segment display. (Work in progress) <br/>
 ![segmentdisplay.png](https://github.com/victor-rene/kivy-gamelib/raw/master/segmentdisplay/segmentdisplay.png "SegmentDisplay")
 
-DotMatrix
----------
-A dot matrix. Can rotate, accept new glyphs, colors are customizable. Dots are squares or circles.<br/>
-![dotmatrix.png](https://github.com/victor-rene/kivy-gamelib/raw/master/dotmatrix/dotmatrix.png "DotMatrix")
