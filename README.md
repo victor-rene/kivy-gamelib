@@ -28,6 +28,11 @@ GamePad
 A game pad. Styled from the Super Nintendo Entertainment System's controller.<br/>
 ![gamepad.png](https://github.com/victor-rene/kivy-gamelib/raw/master/gamepad/gamepad.png "GamePad")
 
+ChessBoard
+----------
+A chess board. Can flip, reads and writes fen positions. Highlight on last move (white) or hint (red).<br/>
+![chessboard.png](https://github.com/victor-rene/kivy-gamelib/raw/chessboard/chessboard/chessboard.png "ChessBoard")
+
 SquareGrid
 ----------
 A square grid. Styled from Advance Wars / Fire Emblem. (Work in progress) <br/>
