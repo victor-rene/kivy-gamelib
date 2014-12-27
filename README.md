@@ -31,7 +31,7 @@ A game pad. Styled from the Super Nintendo Entertainment System's controller.<br
 ChessBoard
 ----------
 A chess board. Can flip, reads and writes fen positions. Highlight on last move (white) or hint (red).<br/>
-![chessboard.png](https://github.com/victor-rene/kivy-gamelib/raw/chessboard/chessboard/chessboard.png "ChessBoard")
+![chessboard.png](https://github.com/victor-rene/kivy-gamelib/raw/chessboard/chessboard.png "ChessBoard")
 
 SquareGrid
 ----------
