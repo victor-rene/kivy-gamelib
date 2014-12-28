@@ -33,6 +33,10 @@ ChessBoard
 A chess board. Can flip, reads and writes fen positions. Highlight on last move (white) or hint (red).<br/>
 ![chessboard.png](https://github.com/victor-rene/kivy-gamelib/raw/master/chessboard/chessboard.png "ChessBoard")
 
+Experience
+----------
+Some functions to implement a RPG leveling system.
+
 SquareGrid
 ----------
 A square grid. Styled from Advance Wars / Fire Emblem. (Work in progress) <br/>
