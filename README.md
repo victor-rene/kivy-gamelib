@@ -33,6 +33,13 @@ ChessBoard
 A chess board. Can flip, reads and writes fen positions. Highlight on last move (white) or hint (red).<br/>
 ![chessboard.png](https://github.com/victor-rene/kivy-gamelib/raw/master/chessboard/chessboard.png "ChessBoard")
 
+StickMan
+--------
+An animated stickman. Styled from One Finger Death Punch. (Work in progress) <br/>
+![flex.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/flex.png "Flex")
+![kick.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/kick.png "Kick")
+![punch.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/punch.png "Punch")
+
 Experience
 ----------
 Some functions to implement a RPG leveling system.
@@ -51,11 +58,6 @@ IsometricGrid
 -------------
 An isometric grid. Styled from Final Fantasic Tactics. (Work in progress) <br/>
 ![isometricgrid.png](https://github.com/victor-rene/kivy-gamelib/raw/master/isometricgrid/isometricgrid.png "IsometricGrid")
-
-StickMan
---------
-An animated stickman. Styled from One Finger Death Punch. (Work in progress) <br/>
-![stickman.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/stickman.png "StickMan")
 
 SegmentDisplay
 --------------
