@@ -37,7 +37,7 @@ class StickMan(RelativeLayout):
     for bone in self.bones:
       self.add_widget(bone)
     self.anims = {'flex': self.flex, 'high_kick': self.high_kick,
-      'high_punch': self.high_punch}
+      'high_punch': self.high_punch, 'split': self.split}
     self.bind(pos=self.update, size=self.update)
     Clock.schedule_interval(self.constraint, 0.01)
     
@@ -113,6 +113,24 @@ class StickMan(RelativeLayout):
     anim = Animation(angle=-90)
     anim.start(self.l_thigh)
     anim.start(self.l_forearm)
+    anim.bind(on_complete=self.inc_anims)
+  
+  def split(self):
+    self.anim_done = 0
+    self.anim_max = 4
+    self.curr_anim = 'split'
+    self.anchor = None
+    anim = Animation(angle=90)
+    anim.start(self.r_arm)
+    anim.bind(on_complete=self.inc_anims)
+    anim = Animation(angle=-90)
+    anim.start(self.l_arm)
+    anim.bind(on_complete=self.inc_anims)
+    anim = Animation(angle=90)
+    anim.start(self.r_thigh)
+    anim.bind(on_complete=self.inc_anims)
+    anim = Animation(angle=-90)
+    anim.start(self.l_thigh)
     anim.bind(on_complete=self.inc_anims)
   
   def high_kick(self):
