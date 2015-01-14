@@ -1,38 +1,41 @@
 from kivy.properties import NumericProperty
 from kivy.uix.image import Image
-from kivy.uix.stacklayout2 import StackLayout
+from kivy.uix.boxlayout import BoxLayout
 
 
-class HeartBar(StackLayout):
+class HeartBar(BoxLayout):
 
-  health = NumericProperty(0)
-  max_health = NumericProperty(12)
+    health = NumericProperty(0)
+    max_health = NumericProperty(20)
 
-  def __init__(self, **kw):
-    super(HeartBar, self).__init__(**kw)
-    self.orientation = 'tb-lr'
-    self.hitpoints = []
-    self.bind(health=self.set_health)
-    
-  def set_health(self, *args):
-    """ Each heart is worth 4 pts. """
-    del self.hitpoints[:]
-    value = self.health
-    for i in range(self.max_health / 4):
-      if value > 4:
-        n = 4
-      elif value <= 0:
-        n = 0
-      else: n = int(value)
-      self.hitpoints.append(n)
-      value -= 4
-    self._draw_health()
-      
-  def _draw_health(self):
-    self.clear_widgets()
-    i = 0
-    while i < (self.max_health / 4):
-      heart = Image(size=(80, 80))
-      heart.source = 'img/heart-' + str(self.hitpoints[i]) + '.png'
-      self.add_widget(heart)
-      i += 1
+    def __init__(self, **kw):
+        super(HeartBar, self).__init__(**kw)
+        self.orientation = 'horizontal'
+        self.hearts = []
+        self.bind(health=self._calc_hearts)
+        self.bind(max_health=self._calc_hearts)
+        self._calc_hearts()
+
+    def _calc_hearts(self, *args):
+        """ Each heart is worth 4 pts. """
+        del self.hearts[:]
+        hp = self.health
+        for i in range(self.max_health / 4):
+            if hp > 4:
+                n = 4
+            elif hp <= 0:
+                n = 0
+            else:
+                n = int(hp)
+            self.hearts.append(n)
+            hp -= 4
+        self._draw_hearts()
+
+    def _draw_hearts(self):
+        self.clear_widgets()
+        i = 0
+        while i < (self.max_health / 4):
+            heart = Image(size=(80, 80))
+            heart.source = 'img/heart-' + str(self.hearts[i]) + '.png'
+            self.add_widget(heart)
+            i += 1
