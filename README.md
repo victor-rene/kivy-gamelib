@@ -36,9 +36,16 @@ A chess board. Can flip, reads and writes fen positions. Highlight on last move 
 StickMan
 --------
 An animated stickman. Styled from One Finger Death Punch. (Work in progress) <br/>
-![flex.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/flex.png "Flex")
-![kick.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/kick.png "Kick")
-![punch.png](https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/punch.png "Punch")
+<img src="https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/flex.png" alt="Flex" style="height:100px">
+<img src="https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/kick.png" alt="Kick" style="height:100px">
+<img src="https://github.com/victor-rene/kivy-gamelib/raw/master/stickman/punch.png" alt="Punch" style="height:100px">
+
+FooBar
+------
+An animated foobar. Styled from when I got pissed off at Kivy (lol). <br/>
+<img src="https://github.com/victor-rene/kivy-gamelib/raw/master/foobar/foobar.png" alt="FooBar" style="height:100px">
+
+<!--
 
 Experience
 ----------
@@ -64,3 +71,4 @@ SegmentDisplay
 A segment display. (Work in progress) <br/>
 ![segmentdisplay.png](https://github.com/victor-rene/kivy-gamelib/raw/master/segmentdisplay/segmentdisplay.png "SegmentDisplay")
 
+-->
