@@ -67,6 +67,4 @@ class ResourceBar(Widget):
     s = .8
     v = .8
     a = 1
-    self.canvas.remove(self.quad_color)
-    self.quad_color = Color(h, s, v, a, mode='hsv')
-    self.canvas.insert(1, self.quad_color)
+    self.quad_color.hsv = (h, s, v)
