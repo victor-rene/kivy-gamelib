@@ -45,6 +45,11 @@ FooBar
 An animated foobar. Styled from when I got pissed off at Kivy (lol). <br/>
 <img src="https://github.com/victor-rene/kivy-gamelib/raw/master/foobar/foobar.png" alt="FooBar" style="height:100px">
 
+SquareGrid
+----------
+A simple square grid.<br/>
+![squaregrid.png](https://github.com/victor-rene/kivy-gamelib/raw/master/squaregrid/squaregrid.png "SquareGrid")
+
 <!--
 
 Experience
@@ -53,7 +58,7 @@ Some functions to implement a RPG leveling system.
 
 SquareGrid
 ----------
-A square grid. Styled from Advance Wars / Fire Emblem. (Work in progress) <br/>
+A simple square grid. Styled from Advance Wars / Fire Emblem. (Work in progress) <br/>
 ![squaregrid.png](https://github.com/victor-rene/kivy-gamelib/raw/master/squaregrid/squaregrid.png "SquareGrid")
 
 HexGrid
